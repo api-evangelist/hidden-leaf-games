@@ -1,8 +1,25 @@
 aid: hidden-leaf-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hidden-leaf-games.png
 name: Hidden Leaf Games
-description: Hidden Leaf Games is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Hidden Leaf Games is an independent video game development studio founded in 2019
+  and based in the United States. The studio builds competitive multiplayer games centered on
+  competition, progression, and social play, with a stated mission of delivering a world-class
+  experience where games are meant to be played together regardless of skill level or platform.
+  The company is led by CEO David Li and President Bao Lam and raised seed funding from Lightspeed
+  Venture Partners in 2021. Hidden Leaf Games is a consumer gaming company and does not currently
+  publish a public developer platform, API, or SDK; this profile tracks it as a portfolio-sourced
+  lead in the API Evangelist network for ongoing enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/hidden-leaf-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +27,35 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2019'
+x-founders:
+- David Li
+- Bao Lam
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Development
+- Multiplayer
+- Consumer
+- Entertainment
+- Indie Games
+common:
+- type: DomainSecurity
+  url: security/hidden-leaf-games-domain-security.yml
+- type: Website
+  url: https://hiddenleafgames.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
